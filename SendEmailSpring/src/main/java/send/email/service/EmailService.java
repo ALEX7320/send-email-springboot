@@ -47,7 +47,6 @@ public class EmailService {
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
 		LocalDateTime localDateTime = LocalDateTime.now();
 		String formattedDateTime = localDateTime.format(formatter);
-		// https://stackoverflow.com/questions/22463062/how-can-i-parse-format-dates-with-localdatetime-java-8
 		
 		return formattedDateTime; // 2023-11-16 20:06
 	}

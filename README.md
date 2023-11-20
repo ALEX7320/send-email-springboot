@@ -1,6 +1,6 @@
 # Enviar correo con SpringBoot (Gmail)
 
-En este repositorio te mostraremos un pequeños ejemplo para enviar correo con SpringBoot, hemos creado una plantilla de "Recuperar contraseña" (HTML) como ejemplo.
+En este repositorio te mostraremos un pequeños ejemplo para enviar correo con SpringBoot, hemos creado una plantilla de "Recuperar contraseña" (en HTML).
 
 * [Conectar cuenta Google](#conectar-cuenta-google)
     - [Conexión en Spring](#conexión-en-spring)
@@ -9,6 +9,7 @@ En este repositorio te mostraremos un pequeños ejemplo para enviar correo con S
 * [Plantilla HTML](#plantilla-html)
 * [Uso en Postman](#uso-en-postman)
 * [Previsualización](#previsualización)
+* [Enlaces de apoyo](#enlaces-de-apoyo)
 * [Consideración](#previsualización)
 
 
@@ -113,7 +114,12 @@ Estos son los datos para el receptor del correo. Debemos utilizar la siguiente e
 ![](https://i.postimg.cc/s2Lsfrtp/Correoej.png)
 
 
+# Enlaces de apoyo
+
+- [Set sender name in JavaMailSender](https://stackoverflow.com/questions/32666985/set-sender-name-in-javamailsender "")
+- [Javamail Could not convert socket to TLS GMail](https://stackoverflow.com/questions/16115453/javamail-could-not-convert-socket-to-tls-gmail "")
+- [How can I parse/format dates with LocalDateTime? (Java 8)](https://stackoverflow.com/questions/22463062/how-can-i-parse-format-dates-with-localdatetime-java-8 "")
+
 # Consideración
 
 > Si tienes el antivirus Avast deberás desactivarlo, de lo contrario te saldrá error al enviar el correo mediante SpringBoot.
-
