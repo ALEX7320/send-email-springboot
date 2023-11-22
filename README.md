@@ -39,7 +39,7 @@ spring.mail.password=cdkfpsiumctfuavp
 
 ### Obtener contraseña de App Google
 
-[Ver la guía aquí.](https://drive.google.com/file/d/1Sij4KmgyWEmP-lOIWQQ9sjmWXrFC9esb/view?usp=drive_link "Ver guía")
+[Ver la guía aquí.](/Documento/Configurar%20contraseña%20de%20app%20Google.pdf)
 
 La contraseña que generemos debemos colocarlo en `spring.mail.password`
 
